@@ -1,0 +1,42 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+    --bg-light: #ffffff;
+    --bg-dark: #1f2636;
+    --white: #fff;
+    --black: #000;
+    --red: #ff0000;
+    --blue: #0000ff;
+    --gray: #999;
+    --yellow: #0f0;
+    --alicewhite: #f0f8ff;
+    --slicewhite: #eff;
+    --alicered: #ff1111;
+    --slicered: #e00;
+    --aliceblue: #0f0ffd;
+    --sliceblue: #0e0eff;
+    --aliceyellow: #0fff0f;
+    --sliceyellow: #0eff0e;
+    --aliceblack: #0f0f0f;
+    --sliceblack: #0e0e0e;
+    --header-light: #ffe4c4;
+    --header-dark: #8a7c6c;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    list-style: none;
+    text-decoration: none;
+}
+
+body {
+    transition: all 999ms ease-in-out;
+}
+
+main {
+    margin-top: 79px;
+}

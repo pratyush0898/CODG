@@ -1,0 +1,24 @@
+#heading h1 {
+    font-family: 'Ubuntu', sans-serif;   
+    font-size: 48px;
+    font-weight: 800;
+    font-style: normal;
+}
+#paragraph p {
+    font-family: 'poppins', sans-serif;
+    font-size: 17px;
+    font-weight: 400;
+    font-style: none;
+}
+
+.white {
+    color: var(--alicewhite);
+}
+.black {
+    color: var(--aliceblack);
+}
+
+#heading h1, #paragraph p {
+    transition: all 0999ms ease-in-out;
+}
+
