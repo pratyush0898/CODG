@@ -1,24 +1,27 @@
 import React from 'react'
 import NavBar from '../../Components/NavBar/NavBar.jsx'
 import Footer from '../../Components/Footer/Footer.jsx'
-import BlogPostCard from '../../Components/BlogPostCard/BlogPostCard.jsx'
+import BlogCard from '../../Components/BlogCard/BlogCard.jsx'
 
 const AllBlogs = () => {
   return (
     <>
       <NavBar />
       <main>
-        <BlogPostCard />
-        <BlogPostCard />
-        <BlogPostCard />
-        <BlogPostCard />
-        <BlogPostCard />
-        <BlogPostCard />
-        <BlogPostCard />
-        <BlogPostCard />
-        <BlogPostCard />
-        <BlogPostCard />
-        <BlogPostCard />
+        <div id="blog-cards">
+          <BlogCard />
+          <BlogCard />
+          <BlogCard />
+          <BlogCard />
+          <BlogCard />
+          <BlogCard />
+          <BlogCard />
+          <BlogCard />
+          <BlogCard />
+          <BlogCard />
+          <BlogCard />
+          <BlogCard />
+        </div>
       </main>
       <Footer />
     </>
