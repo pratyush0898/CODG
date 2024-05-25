@@ -77,6 +77,6 @@ The application will be available at `http://localhost:3000`.
 
 ## License
 
-By contributing to CODG, you agree that your contributions will be licensed under the [MIT License](LICENSE).
+By contributing to CODG, you agree that your contributions will be licensed under the [Apache 2.0 License](./LICENSE).
 
 Thank you for your contributions and support!
