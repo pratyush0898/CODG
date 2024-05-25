@@ -41,3 +41,9 @@ Project maintainers who do not follow or enforce the Code of Conduct in good fai
 This Code of Conduct is adapted from the [Contributor Covenant][homepage], version 2.0, available at [https://www.contributor-covenant.org/version/2/0/code_of_conduct.html](https://www.contributor-covenant.org/version/2/0/code_of_conduct.html).
 
 For answers to common questions about this code of conduct, see [https://www.contributor-covenant.org/faq](https://www.contributor-covenant.org/faq).
+
+## License
+
+By contributing to CODG, you agree that your contributions will be licensed under the [Apache 2.0 License](./LICENSE).
+
+Thank you for your contributions and support!
