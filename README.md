@@ -20,7 +20,7 @@ Check out the CODG blog at [codg.netlify.app](https://codg.netlify.app).
 
 ## Contributing
 
-We welcome contributions from the community! To contribute to CODG, follow these steps:
+We welcome contributions from the community! To contribute to CODG view [CONTRIBUTING](./CONTRIBUTING.md) and , follow these steps:
 
 1. Fork the repository.
 2. Create a new branch:
