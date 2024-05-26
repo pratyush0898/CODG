@@ -11,6 +11,7 @@ import MyState from "./Context/data/MyState";
 import { Toaster } from "react-hot-toast";
 import About from "./Components/About/About";
 import './App.css'
+import CreateBlog from "./pages/Admin/CreateBlog/CreateBlog";
 
 function App() {
   const ads = document.querySelector('.ads')
@@ -27,6 +28,7 @@ function App() {
             <Route path="/about" element={<About />} />
             <Route path="/adminlogin" element={<AdminLogin />} />
             <Route path="/dashboard" element={<Dashboard />} />
+            <Route path="/createblog" element={<CreateBlog />} />
             <Route path="/*" element={<Nopage />} />
           </Routes>
           <Toaster />
