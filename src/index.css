@@ -37,6 +37,6 @@ body {
     transition: all 999ms ease-in-out;
 }
 
-main {
+main, .main {
     margin-top: 79px;
 }
