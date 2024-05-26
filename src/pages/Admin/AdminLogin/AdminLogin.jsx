@@ -7,13 +7,25 @@ import {
     Button,
     Typography,
 } from "@material-tailwind/react";
+import { Link, useNavigate   } from 'react-router-dom'
 import MyContext from '../../../Context/data/MyContext';
 import './AdminLogin.css'
 
 const AdminLogin = () => {
     const context = useContext(MyContext);
     const { mode } = context;
+    const navigate = useNavigate(); // Get navigate instance
 
+    const [email, setEmail] = useState('');
+    const [password, setPassword] = useState('');
+
+    function handleLogin() {
+        if (email === 'pkcanva123@gmail.com' && password === 'pk123pratyush') {
+            navigate('/dashboard'); // Redirect to dashboard route on successful login
+        } else {
+            alert('Invalid credentials');
+        }
+    }
     return (
         <div className="flex justify-center items-center h-screen box-border">
 
@@ -65,6 +77,8 @@ const AdminLogin = () => {
                                 type="email"
                                 label="Email"
                                 name="email"
+                                value={email}
+                                onChange={(e) => setEmail(e.target.value)}
                             />
                         </div>
                         {/* Second Input  */}
@@ -72,10 +86,14 @@ const AdminLogin = () => {
                             <Input
                                 type="password"
                                 label="Password"
+                                name="password"
+                                value={password}
+                                onChange={(e) => setPassword(e.target.value)}
                             />
                         </div>
                         {/* Login Button  */}
                         <Button
+                            onClick={handleLogin}
                             style={{
                                 background: mode === 'dark'
                                     ? 'rgb(226, 232, 240)'
@@ -90,8 +108,6 @@ const AdminLogin = () => {
                 </CardBody>
             </Card>
         </div>
-
-
     );
 } 
 
