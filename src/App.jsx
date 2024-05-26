@@ -14,6 +14,7 @@ import './App.css'
 
 function App() {
   const ads = document.querySelector('.ads')
+
   return (
     <>
       <MyState>
